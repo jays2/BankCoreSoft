@@ -1,0 +1,6 @@
+@BlueSoftCore.Server_HostAddress = http://localhost:5087
+
+GET {{BlueSoftCore.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,61 @@
+﻿.containerbox {
+    width: 300px; /* Adjust width as needed */
+    margin: auto; /* Center horizontally */
+    margin-top: 50px; /* Adjust top margin as needed */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .containerbox h3 {
+        text-align: center; /* Center the heading */
+        margin-bottom: 20px; /* Add some space below the heading */
+    }
+
+    .containerbox form {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .containerbox form > div {
+            margin-bottom: 10px; /* Add spacing between form elements */
+        }
+
+            .containerbox form > div:last-child {
+                display: flex;
+                justify-content: space-between; /* Align buttons to the right */
+            }
+
+        .containerbox form label {
+            display: block;
+            margin-bottom: 5px; /* Add space below each label */
+        }
+
+        .containerbox form input[type="text"],
+        .containerbox form input[type="password"],
+        .containerbox form input[type="email"],
+        .containerbox form input[type="checkbox"] {
+            width: 100%; /* Make inputs fill the container */
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .containerbox form button {
+            padding: 8px 16px; /* Adjust button padding */
+            border-radius: 4px;
+            border: none;
+            background-color: #646cff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+            .containerbox form button:hover {
+                background-color: #535bf2;
+            }
+
+.error {
+    color: red;
+    margin-top: 10px; /* Add spacing below error message */
+}
